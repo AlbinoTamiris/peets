@@ -4,7 +4,7 @@
   <img src="assets/petsintro.jpg" alt="Imagem de introdução do PEETS" width="900">
 </p>
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 O **PEETS** é uma plataforma web desenvolvida com o objetivo de facilitar o processo de **adoção e apadrinhamento de animais**, conectando ONGs parceiras a pessoas interessadas em ajudar pets que aguardam um lar definitivo.
 
@@ -12,7 +12,7 @@ O projeto foi desenvolvido como parte de um **Projeto Integrado Multidisciplinar
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Criar uma solução simples, acessível e visualmente amigável que permita:
 - Visualizar animais disponíveis para adoção;
@@ -22,14 +22,14 @@ Criar uma solução simples, acessível e visualmente amigável que permita:
 
 ---
 
-## 👥 Público-alvo
+## Público-alvo
 
 - Pessoas interessadas em adotar ou apadrinhar animais;
 - ONGs de proteção animal com pouca infraestrutura tecnológica.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5** – Estrutura das páginas  
 - **CSS3** – Estilização e layout  
@@ -39,7 +39,7 @@ Criar uma solução simples, acessível e visualmente amigável que permita:
 
 ---
 
-## 🧩 Funcionalidades
+## Funcionalidades
 
 - Tela de login e cadastro de usuários;
 - Listagem de pets disponíveis;
@@ -50,7 +50,7 @@ Criar uma solução simples, acessível e visualmente amigável que permita:
 
 ---
 
-## 🧪 Ambiente de Desenvolvimento
+## Ambiente de Desenvolvimento
 
 O projeto foi desenvolvido inicialmente no **CodePen**, por ser uma plataforma online que facilita testes rápidos com HTML, CSS e JavaScript, sem necessidade de configuração de servidor.
 
@@ -58,7 +58,7 @@ Posteriormente, o código foi organizado em arquivos separados (`index.html`, `s
 
 ---
 
-## 🎥 Gravação do Projeto
+## Gravação do Projeto
 
 A apresentação do projeto está disponível no link abaixo:
 
@@ -66,6 +66,21 @@ A apresentação do projeto está disponível no link abaixo:
 `https://www.youtube.com/watch?v=TezMrKG9koM&feature=youtu.be`
 
 Todo o código-fonte utilizado no projeto encontra-se neste repositório.
+
+
+---
+
+## Autoria
+
+Projeto desenvolvido por estudantes do  
+**Centro Universitário Belas Artes de São Paulo**,  
+como parte das atividades acadêmicas do curso.
+
+---
+
+<p align="center">
+  <img src="assets/petsfim.jpg" alt="Encerramento do projeto PEETS" width="700">
+</p>
 
 
 
