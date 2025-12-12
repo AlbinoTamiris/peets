@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PEETS - Plataforma de Adoção</title>
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= LOGIN ================= -->
+  <div id="login" class="center-box">
+    <div class="box">
+      <img src="https://i.imgur.com/Hu8mi9B.png" class="logo-top" alt="logo">
+      <h2>ENTRAR</h2>
+      <input id="loginEmail" type="text" placeholder="Email" />
+      <input id="loginSenha" type="password" placeholder="Senha" />
+      <button onclick="fazerLogin()">LOGIN</button>
+      <p class="msg err" id="msgLoginErro">Usuário não encontrado</p>
+      <span class="link" onclick="abrirCadastro()">Criar conta</span>
+    </div>
+  </div>
+
+  <!-- ================= CADASTRO ================= -->
+  <div id="cadastro" class="center-box" style="display:none;">
+    <div class="box">
+      <img src="https://i.imgur.com/Hu8mi9B.png" class="logo-top" alt="logo">
+      <h2>Cadastrar</h2>
+      <input id="cadNome" type="text" placeholder="Nome completo" />
+      <input id="cadEmail" type="text" placeholder="Email" />
+      <input id="cadSenha" type="password" placeholder="Senha" />
+      <button onclick="cadastrar()">Cadastrar</button>
+      <p class="msg ok" id="msgCadastroOk">Usuário cadastrado!</p>
+      <p class="msg err" id="msgCadastroErro">Preencha todos os campos!</p>
+      <span class="link" onclick="abrirLogin()">Já tenho conta</span>
+    </div>
+  </div>
+
+  <!-- ================= HOME ================= -->
+  <div id="home" style="display:none;">
+
+    <header class="hp-header">
+      <div class="hp-left">
+        <img src="https://i.imgur.com/Hu8mi9B.png" class="logo-small" alt="logo">
+      </div>
+
+      <nav class="hp-nav">
+        <button class="adote-btn" onclick="abrirAdote()">ADOTE</button>
+        <a onclick="showSection('apadrinhe')">APADRINHE</a>
+        <a onclick="showSection('sobre')">QUEM SOMOS NÓS</a>
+      </nav>
+
+      <div class="hp-right">
+        <input id="searchInput" class="hp-search" placeholder="Pesquisar...">
+        <button class="icon-btn" title="Perfil" onclick="openPerfil()">👤</button>
+        <button class="icon-btn" title="Sair" onclick="logout()">↩️</button>
+      </div>
+    </header>
+
+    <section class="hp-banner">
+      <div class="hp-banner-left">
+        <button class="adote-btn" onclick="abrirAdote()">ADOTE</button>
+        <div class="count">+45</div>
+      </div>
+
+      <div class="hp-banner-right" id="thumbsRow"></div>
+    </section>
+
+    <section class="hp-features">
+      <div class="feature">
+        <div class="f-icon">💜</div>
+        <div class="f-text">Salve uma vida</div>
+      </div>
+      <div class="feature">
+        <div class="f-icon">📅</div>
+        <div class="f-text">Conheça o seu PET marcando uma visita!</div>
+      </div>
+      <div class="feature">
+        <div class="f-icon">🐾</div>
+        <div class="f-text">Faça um animal feliz</div>
+      </div>
+      <div class="feature">
+        <div class="f-icon">🤝</div>
+        <div class="f-text">Faça um amigo</div>
+      </div>
+    </section>
+
+    <main id="mainContent" class="hp-main">
+      <h3 id="welcomeText">Bem-vindo(a)!</h3>
+      <p id="homeHint">
+        A sua visita faz toda a diferença. Aqui você vai mudar a vida de algum animal
+        que precisa de amor e um lar definitivo.
+      </p>
+    </main>
+
+    <!-- ADOTE -->
+    <section id="adotePage" style="display:none; padding:20px;">
+      <header style="background:#7a1cc4;color:white;text-align:center;padding:18px;
+      margin-bottom:20px;font-size:26px;font-weight:bold;border-radius:8px;">
+        INSTITUIÇÃO APAAT
+      </header>
+
+      <button onclick="voltarParaHomePrincipal()">← Voltar para Home</button>
+
+      <div class="pets-grid">
+        <!-- cards dos pets (igual ao seu código original) -->
+      </div>
+    </section>
+
+    <!-- APADRINHE -->
+    <section id="apadrinhePage" style="display:none; padding:20px;"></section>
+
+    <!-- QUEM SOMOS -->
+    <section id="quemSomosNosPage" style="display:none; padding:20px;"></section>
+
+    <!-- DETALHES -->
+    <section id="detalhesPage" style="display:none; padding:20px;">
+      <div id="detalhesContent"></div>
+    </section>
+
+  </div>
+
+  <!-- JavaScript externo -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
