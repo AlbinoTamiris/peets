@@ -8,7 +8,7 @@
 
 O **PEETS** é uma plataforma web desenvolvida com o objetivo de facilitar o processo de **adoção e apadrinhamento de animais**, conectando ONGs parceiras a pessoas interessadas em ajudar pets que aguardam um lar definitivo.
 
-O projeto foi desenvolvido como parte de um **Projeto Integrado Multidisciplinar (PIM)** do Centro Universitário Belas Artes de São Paulo.
+O projeto foi desenvolvido como parte de um **Projeto Integrado Multidisciplinar (PIME)** do Centro Universitário Belas Artes de São Paulo.
 
 ---
 
@@ -72,9 +72,14 @@ Todo o código-fonte utilizado no projeto encontra-se neste repositório.
 
 ## Autoria
 
-Projeto desenvolvido por estudantes do  
-**Centro Universitário Belas Artes de São Paulo**,  
-como parte das atividades acadêmicas do curso.
+> Projeto desenvolvido por alunas do curso de **Análise e Desenvolvimento de Sistemas**  
+> do **Centro Universitário Belas Artes de São Paulo**, como parte do  
+> **Projeto Integrado Multidisciplinar (PIME III)**.
+>
+> - **Gabriella Andrade da Silva** – RM 24213654  
+> - **Tamiris Albino Silva** – RM 24213640  
+> - **Bianca Santos da Silva** – RM 24214009  
+> - **Manuela Santos Lobo** – RM 24109798
 
 ---
 
