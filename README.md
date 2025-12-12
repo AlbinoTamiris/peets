@@ -1,2 +1,2 @@
-# peets
+# PEETS
 Conectando corações e patas
